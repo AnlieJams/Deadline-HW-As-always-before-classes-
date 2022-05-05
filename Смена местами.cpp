@@ -7,9 +7,7 @@ using namespace std;
    // С ТРЕТЬЕЙ ПЕРЕМЕННОЙ
 int main()
 {
-    int a, b, c;
     setlocale(LC_ALL, "Russian");
-    setlocale(0, "");
     int a, b, c;
     cout << "a= ";
     cin >> a;
@@ -32,7 +30,7 @@ int main()
     setlocale(LC_ALL, "Russian");
     cout << "Прошу, два любых числа: ";
 
-    if (std::cin >> a >> b)
+    if (cin >> a >> b)
     {
         setlocale(LC_ALL, "Russian");
         cout << "Ваши числа: a = " << a << ", b = " << b << endl;
